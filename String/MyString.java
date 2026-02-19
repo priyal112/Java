@@ -1,0 +1,14 @@
+package String;
+public class MyString {
+    public static void main(String[] args) {
+        String a = new String("Ram");
+        String b = new String("Ram");
+        String c = "Ram";
+        String d = "Ram";
+
+        System.out.println(a == b);
+        System.out.println(c == d);
+        
+
+    }
+}
