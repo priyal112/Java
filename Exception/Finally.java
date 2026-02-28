@@ -11,6 +11,8 @@ public class Finally {
         }catch(Exception e){
             System.out.println(e);
             return -1;
+        }finally{
+            System.out.println("Bye");
         }
     }
 
