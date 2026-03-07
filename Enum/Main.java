@@ -7,6 +7,6 @@ public class Main {
         System.out.println(ordinal);
         System.out.println(monday.name());
 
-        monday.disply();
+        monday.disply(); 
     }
 }
