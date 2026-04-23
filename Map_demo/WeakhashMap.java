@@ -1,4 +1,4 @@
-package Map;
+package Map_demo;
 
 import java.util.WeakHashMap;
 
@@ -18,7 +18,7 @@ public class WeakhashMap {
             System.out.println("Simulating application running");
             Thread.sleep(10000);
         } catch (InterruptedException e) {
-             e.printStackTrace();
+             //e.printStackTrace();
         }
     }
 
@@ -34,6 +34,14 @@ class Image {
     @Override
     public String toString() {
         return "[name=" + name + "]";
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     

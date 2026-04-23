@@ -1,4 +1,4 @@
-package Map;
+package Map_demo;
 
 import java.util.HashMap;
 import java.util.Objects;
@@ -59,6 +59,14 @@ class Person{
    public String toString() {
     return "name=" + name + ", id=" + id;
    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
 
    

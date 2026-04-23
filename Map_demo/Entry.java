@@ -1,4 +1,4 @@
-package Map;
+package Map_demo;
 
 public class Entry<T1, T2> {
 

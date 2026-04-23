@@ -1,4 +1,4 @@
-package Map;
+package Map_demo;
 
 import java.util.LinkedHashMap;
 
@@ -23,5 +23,13 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V>{
         studentMap.put("Ram", 69);
         studentMap.put("Max", 94);
         System.out.println(studentMap);
+    }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
 }
